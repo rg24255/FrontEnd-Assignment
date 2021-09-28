@@ -1,0 +1,43 @@
+.star {
+  button {
+    display: inline-block;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    size: 10px;
+    padding: 2px;
+    width: 40px;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .star-icon {
+    font-size: 25px;
+  }
+  .on {
+    color: gold;
+  }
+  .off {
+    color: gray;
+  }
+}
+
+.delete {
+  button {
+    display: inline-block;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    size: 10px;
+    padding: 2px;
+    width: 40px;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .delete-icon {
+    max-height: 20px;
+  }
+}

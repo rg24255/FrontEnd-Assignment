@@ -1,0 +1,53 @@
+.friend-detail-container {
+  ul {
+    list-style-type: none;
+    background-color: rgb(255, 250, 250);
+    .detail-container {
+      border-top: 1px solid grey;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-left: -40px;
+      .max-text {
+        font-size: 14px;
+        font-weight: 600;
+        text-align: left;
+        margin-left: 4px;
+        width: 25vw;
+        .min-text {
+          font-size: 10px;
+          font-weight: 400;
+          color: darkgrey;
+        }
+      }
+    }
+  }
+  .pagination {
+    display: flex;
+    justify-content: flex-end;
+    .pagination-btn {
+      padding: 6px;
+      margin: 2px 2px;
+    }
+    .pageNo {
+      margin-right: 20px;
+    }
+  }
+}
+.input-container {
+  .input-field {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .error-text {
+    color: red;
+    text-align: left;
+    margin-left: 2px;
+    font-size: 14px;
+  }
+}
